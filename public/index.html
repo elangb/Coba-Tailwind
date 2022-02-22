@@ -14,9 +14,12 @@
         <nav class="container flex items-center py-4 mt-4 sm:mt-10">
             <div class="py-1"><img src="./img/image.png" alt="" /></div>
             <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-white uppercase text-base font-bold">
-                <li class="cursor-pointer">About</li>
-                <li class="cursor-pointer">Category</li>
-                <li class="cursor-pointer">Contact</li>
+                <!-- <li class="cursor-pointer">About</li> -->
+                <li class="cursor-pointer"><a class="page-scroll" href="#about_section">About</a></li>
+                <!-- <li class="cursor-pointer">Category</li> -->
+                <li class="cursor-pointer"><a class="page-scroll" href="#category_section">Category</a></li>
+                <!-- <li class="cursor-pointer">Contact</li> -->
+                <li class="cursor-pointer"><a class="page-scroll" href="#contact_section">Contact</a></li>
                 <button type="button" class="bg-indigo-700 text-white rounded-md px-7 py-3">Login</button>
             </ul>
 
@@ -60,7 +63,7 @@
     </section>
 
     <!--Features 1-->
-    <section class="bg-white py-10 mt-20 lg:mt-20">
+    <section id="about_section" class="bg-white py-10 mt-20 lg:mt-20">
         <!--Heading-->
         <div class="sm:-3/4 lg:w-5/12 mx-auto px-2">
             <h1 class="text-3xl text-center text-indigo-600">About</h1>
@@ -97,7 +100,7 @@
     </section>
 
 <!--category-->
-<section class="py-10 mt-10">
+<section id="category_section" class="py-10 mt-10">
     <!--Heading-->
     <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
         <h1 class="text-3xl text-center text-indigo-600">Category</h1>
@@ -178,7 +181,7 @@
 </section> -->
 
 
-<section>
+<section id="contact_section">
     <div class="relative mt-1 lg:mt-1 bg-toko-blue py-14">
         <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
             
@@ -212,9 +215,9 @@
 
                 <h1 class="flex cursor-pointer text-toko-white font-bold text-lg">IniToko</h1>
                 <ul class="flex text-toko-white gap-12 text-sm">
-                    <li class="cursor-pointer">About</li>
-                    <li class="cursor-pointer">Category</li>
-                    <li class="cursor-pointer">Contact</li>
+                    <li class="cursor-pointer"><a class="page-scroll" href="#about_section">About</a></li>
+                    <li class="cursor-pointer"><a class="page-scroll" href="#category_section">Category</a></li>
+                    <li class="cursor-pointer"><a class="page-scroll" href="#contact_section">Contact</a></li>
                 </ul>
             </div>
             <div class="flex gap-10 mt-12 md:mt-0">
